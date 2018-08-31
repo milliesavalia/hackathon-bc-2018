@@ -1,0 +1,73 @@
+.grid-list-feed{
+    padding-top: 1em;
+    display: flex;
+}
+
+
+.feed-tile-frame{
+    margin: auto;
+}
+
+.feed-tile-img{
+    max-height: 20em;
+  }
+
+  .feed-tile-img-frame{
+      max-width: 20em;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+  }
+.tile-icons{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: right;
+}
+  .feed-tile-img-frame .feed-tile-icon.active{
+    display: inline;
+    opacity: 1 !important;
+    
+}
+  .feed-tile-img-frame .feed-tile-icon.inactive{
+      display: inline;
+      opacity: 0;
+      transition: opacity 0.3s;
+  }
+  .feed-tile-img-frame:hover .feed-tile-icon.inactive{
+
+      opacity: 1;
+  }
+  
+
+.feed-tile-icon{
+    font-size: 1.7em;
+    
+}
+
+.feed-tile-icon .social-icon{
+    color: #33ccff
+}
+
+.feed-tile-icon .favorite-icon{
+    color: #ffb3d9;
+}
+
+
+.feed-tile-frame .feed-tile-info{
+    text-align: left;
+    padding: 0.5em;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.feed-tile-frame:hover .feed-tile-info{
+    opacity: 1;
+}
+.tile-company{
+    font-size: 1em;
+}
+.tile-title{
+    font-size: 1.5em;
+}

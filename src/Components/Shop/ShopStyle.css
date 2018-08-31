@@ -1,0 +1,10 @@
+.paper-frame{
+}
+.shop-paper{
+    max-width: 10em;
+    max-height: 10em;
+    overflow: hidden;
+}
+.paper-img{
+    width: 100%;
+}
